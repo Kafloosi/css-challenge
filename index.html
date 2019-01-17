@@ -1,70 +1,63 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nieuws vandaag</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <title>TITLE</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
-        <div class="nav">
-                <!-- <div class="nav-header">
-                  <div class="nav-title">
-                    Nieuws Vandaag
-                  </div>
-                </div> -->
-                <div class="nav-btn">
-                  <label for="nav-check">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </label>
-                </div>
-                <input type="checkbox" id="nav-check">
-                <div class="nav-links">
-                    <div class="nav">
-  <div class="nav-header">
-    <div class="nav-title">
-      Nieuws Vandaag
-    </div>
-  </div>
-  <div class="nav-btn">
-    <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-  </div>
-  <input type="checkbox" id="nav-check">
-  <div class="nav-links">
-                <a href="pages/archeologie.html">archeologie</a>
-                <a href="pages/backpacking.html">backpacking</a>
-                <a href="pages/bergklimmen.html">bergklimmen</a>
-  </div>
-</div>
-                </div>
-              </div>
+
+<div class="container">
+    <header id="header">
+        <div id="nav" class="navbar">
+            <div id="arch">
+                <a href="pages/archeologie.html">Archeologie</a>
+            </div>
+            <div id="back">
+                <a href="pages/backpacking.html">Backpacking</a>
+            </div>
+            <div id="berg">
+            <a href="pages/bergklimmen.html">Bergklimmen</a>
+            </div>
+        </div>
+        <div id="name">
+            <a><h1>Nieuws Vandaag</h1></a>
+            <div>
+                <a>Kijken naar het Nieuws van alleen 17 Januari</a>
+            </div>
+        </div>
+    </header>
     <section id="section1">
         <article id="article1">
-            <!-- <div class="block-content">
-                <a><h1>Tis weer lente</h1></a>
-            </div> -->
+            <div class="block-element" id="lente">
+                <a>17 Januari 2019<br></a>
+                <a>Tis weer lente</a>
+            </div>
         </article>
     </section>
     <section id="section2">
         <article id="article2">
-
+            <div class="block-element" id="vk">
+                <a>17 Januari 2019<br></a>
+                <a>Verder kijken</a>
+            </div>
         </article>
     </section>
     <section id="section3">
         <article id="article3">
-
+            <div class="block-element" id="bk">
+                <a>17 Januari 2019<br></a>
+                <a>Backpacking</a>
+            </div>
         </article>
     </section>
     <section id="section4">
-        <article id="article4">
-
+        <article id="article4">            
+            <div class="block-element" id="wc">
+                <a>17 Januari 2019<br></a>
+                <a>Wildcamperen</a>
+            </div>
         </article>
     </section>
     <footer>
@@ -72,7 +65,8 @@
 
         </div>
     </footer>
+</div>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
