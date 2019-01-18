@@ -7,14 +7,17 @@ body{
 }
 
 #section1, #section2, #section3, #section4{
-    display: flex;
+    display: block;
     margin: 25px;
     width: 300px;
-    box-shadow: 5px 10px #343a40;
+    box-shadow: 5px 5px #343a40;
     background-color: dimgrey;
     padding-top: 150px;
 }
 
+a{
+    color: white;
+}
 #name{
     text-align: center;
 }
@@ -27,3 +30,11 @@ body{
 #container{
     margin: 0%;
 }
+
+div.white-wrapper {
+    background-color: #FFF;
+    margin: 0px;
+    text-align: center;
+    margin: auto;
+}
+
